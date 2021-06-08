@@ -1,0 +1,21 @@
+{
+  "name": "s02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "dev": "nodemon server.js",
+    "specifictest": "mocha -g"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^9.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
